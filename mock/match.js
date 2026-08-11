@@ -1,6 +1,6 @@
-const matches = {
-    // ── LMV Varonil 2020 ──
-    1: {
+const matches = [
+    // LMV Varonil 2020 
+    {
         id: 1,
         torneoId: 1,
         equipoLocalId: 1,
@@ -19,7 +19,7 @@ const matches = {
         fase: "Final",
         resultado: "Tigres UANL 3 - 1 Virtus GTO",
     },
-    2: {
+    {
         id: 2,
         torneoId: 1,
         equipoLocalId: 2,
@@ -37,7 +37,7 @@ const matches = {
         fase: "Semifinal",
         resultado: "Virtus GTO 3 - 0 Jaguares NL",
     },
-    3: {
+    {
         id: 3,
         torneoId: 1,
         equipoLocalId: 1,
@@ -56,8 +56,8 @@ const matches = {
         fase: "Semifinal",
         resultado: "Tigres UANL 3 - 1 Tapatíos JAL",
     },
-    // ── LMV Varonil 2019 ──
-    4: {
+    //  LMV Varonil 2019
+    {
         id: 4,
         torneoId: 2,
         equipoLocalId: 1,
@@ -76,7 +76,7 @@ const matches = {
         fase: "Final",
         resultado: "Tigres UANL 3 - 1 Jaguares NL",
     },
-    5: {
+    {
         id: 5,
         torneoId: 2,
         equipoLocalId: 3,
@@ -96,8 +96,8 @@ const matches = {
         fase: "Semifinal",
         resultado: "Virtus GTO 3 - 2 Tapatíos JAL",
     },
-    // ── LMV Femenil 2020 ──
-    6: {
+    // LMV Femenil 2020 
+    {
         id: 6,
         torneoId: 3,
         equipoLocalId: 9,
@@ -115,7 +115,7 @@ const matches = {
         fase: "Final",
         resultado: "Tapatías JAL 3 - 0 Borreguitas CHIH",
     },
-    7: {
+    {
         id: 7,
         torneoId: 3,
         equipoLocalId: 10,
@@ -135,7 +135,7 @@ const matches = {
         fase: "Semifinal",
         resultado: "Tapatías JAL 3 - 2 Tigrillas UANL",
     },
-    8: {
+    {
         id: 8,
         torneoId: 3,
         equipoLocalId: 12,
@@ -154,6 +154,6 @@ const matches = {
         fase: "Semifinal",
         resultado: "Borreguitas CHIH 3 - 1 Ireris MICH",
     },
-};
+];
 
 module.exports = matches;

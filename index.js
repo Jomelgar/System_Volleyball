@@ -8,6 +8,8 @@ const PORT = 3000;
 
 //ROUTERS
 app.use('/match',matchRouter);
+app.use('/referee',refereeRouter);
+app.use('/player',playerRouter);
 
 
 app.get('/health',(req,res) => {

@@ -3,7 +3,7 @@ const controller = require('../controllers/referee');
 const routes = express.Router();
 
 // GET
-routes.get('/', controller.getRefereees);
+routes.get('/', controller.getReferees);
 routes.get('/:id', controller.getRefereeById);
 
 // POST

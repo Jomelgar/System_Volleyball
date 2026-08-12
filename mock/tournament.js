@@ -1,5 +1,5 @@
-const tournaments = {
-    1: {
+const tournaments = [
+    {
         id: 1,
         nombre: "Liga Mexicana de Voleibol Varonil 2020",
         temporada: "2019-2020",
@@ -9,7 +9,7 @@ const tournaments = {
         presidente: "Jesús Perales Navarro",
         rama: "Varonil",
     },
-    2: {
+    {
         id: 2,
         nombre: "Liga Mexicana de Voleibol Varonil 2019",
         temporada: "2018-2019",
@@ -19,7 +19,7 @@ const tournaments = {
         presidente: "Jesús Perales Navarro",
         rama: "Varonil",
     },
-    3: {
+    {
         id: 3,
         nombre: "Liga Mexicana de Voleibol Femenil 2020",
         temporada: "2019-2020",
@@ -29,6 +29,6 @@ const tournaments = {
         presidente: "Jesús Perales Navarro",
         rama: "Femenil",
     },
-};
+];
 
 module.exports = tournaments;

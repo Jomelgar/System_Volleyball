@@ -1,12 +1,15 @@
 const express = require('express');
 const app = express();
-const matchRouter= require('./routes/match');
-const playerRouter = require('./routes/player');
-const refereeRouter = require('./routes/referee');
-const tournamentRouter = require('./routes/tournament');
-const teamRouter = require('./routes/team');
+const matchRouter= require('./src/routes/match');
+const playerRouter = require('./src/routes/player');
+const refereeRouter = require('./src/routes/referee');
+const tournamentRouter = require('./src/routes/tournament');
+const teamRouter = require('./src/routes/team');
+const translatorRouter = require('./src/routes/translator');
 
 const PORT = 3000;
+
+app.use(express.json());
 
 //ROUTERS
 app.use('/match',matchRouter);
@@ -14,6 +17,7 @@ app.use('/referee',refereeRouter);
 app.use('/player',playerRouter);
 app.use('/tournament',tournamentRouter);
 app.use('/team',teamRouter);
+app.use('/translate', translatorRouter);
 
 
 
